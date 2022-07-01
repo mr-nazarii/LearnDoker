@@ -7,16 +7,16 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.json([
     {
-      id: "5",
-      title: "Hello Breakfast",
+      id: "1",
+      title: "Hell yeah I did it!!!",
     },
     {
       id: "2",
-      title: "Hello Lunch",
+      title: "Yeahhhhhh!!!!!!!",
     },
     {
       id: "3",
-      title: "Hello Dinner",
+      title: "It worked",
     },
   ]);
 });
